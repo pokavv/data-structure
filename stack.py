@@ -1,15 +1,11 @@
-##############
-# 삽입/삭제: O(1)
-# LIFO (Last In First Out)
-##############
+s = []
 
-st = []
+s.append(123)
+s.append(456)
+s.append(789)
 
-st.append(123)
-st.append(456)
-st.append(789)
-print('size: ', len(st))
+print('size: ', len(s))
 
-while len(st) > 0:
-    print(st[-1])
-    st.pop()
+while len(s) > 0:
+    print(s[-1])
+    s.pop()
