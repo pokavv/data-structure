@@ -1,0 +1,17 @@
+1. Graph는 node와 edge로 이루어져 있음
+    - 방향성과 순환성 유무
+        - 둘다 없으면 Tree
+
+2. Graph를 Code로 구현할 때는 2가지 방법 존재
+    1. 인접행렬
+        - edge가 많은 Graph일 때 쓰는 게 좋음
+        - edge 탐색이 빠름 : 시간적 측면 유리
+    2. 인접리스트
+        - edge가 적은 그래프일 때 쓰는게 좋음
+        - 메모리를 적게 씀 : 공간적 측면 유리
+
+3. DFS, BFS, Backtracking은 전부 완전탐색 알고리즘
+    - 최악의 경우 모든 노드를 탐색하는 건 동일
+    - BFS : 최단거리 구할때 사용
+    - DFS : 재귀(or Stack), BFS는 Queue로 구현
+    - 가지치기를 하면 Backtracking

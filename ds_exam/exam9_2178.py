@@ -1,5 +1,5 @@
 # boj 2178
-from collections import deque
+from collections import deque # bfs 사용하려면 필요 : queue를 써야하기때문에
 import sys
 
 dy = (0, 1, 0, -1)
